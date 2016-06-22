@@ -3,11 +3,6 @@ import urllib
 import os
 import sys
 import random
-from wordpress_xmlrpc import Client, WordPressPost
-from wordpress_xmlrpc.methods.posts import GetPosts, NewPost
-from wordpress_xmlrpc.methods.users import GetUserInfo
-from wordpress_xmlrpc.compat import xmlrpc_client
-from wordpress_xmlrpc.methods import media, posts
 from numpy import *
 from scipy import misc
 from matplotlib import rc
